@@ -6,7 +6,9 @@
   box-sizing: border-box;
 }
 
-.main-article {margin-top: 50px}
+.main-container {margin-top: 100px}
+
+.main-container * {overflow: hidden}
 
 .float-right {float: right;}
 
@@ -44,12 +46,24 @@
   text-align: center;
 }
 
-.article-main-figure img {
+ img {
   max-width: 100%;
   height: auto;
 }
+
+.mid-article {
+  width: 700px;
+  margin: 0 auto;
+}
+
+img[alt="share-icons"] {height: 60px}
 
 .space {
 	display: block;
   height: 20px;
 }
+
+.bold {font-weight: bold;}
+
+.column-inflation {
+  width: 410px}
