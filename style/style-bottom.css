@@ -1,4 +1,15 @@
-.lower-half ul, .lower-half li, .lower-half figure, .lower-half img, .lower-half a, .lower-half a:visited {
+.lower-half ul,
+.lower-half li,
+.lower-half figure,
+.lower-half img,
+.lower-half a,
+.lower-half a:visited
+.footer ul,
+.footer li,
+.footer figure,
+.footer img,
+.footer a,
+.footer a:visited {
   list-style-type: none;
   padding: 0px;
   margin: 0px;
@@ -94,7 +105,6 @@
 }
 
 .footer-nav {
-  border: 1px solid black;
   display: block;
   font-family: sans-serif;
   width: 100%;
@@ -108,13 +118,11 @@
 }
 
 .footer-nav-column {
-  border: 1px solid black;
   display: inline-block;
   vertical-align: top;
 }
 
 .footer-nav-column * {
-  border: 1px solid black;
   display: block;
 }
 
@@ -123,16 +131,24 @@
 }
 
 .bottom-nav {
-  border: 1px solid black;
   display: block;
   text-align: center;
   width: 100%;
 }
 
-.bottom-nav * {
-  display-style: inline-block;
+.bottom-nav h6 {
+  display: inline-block;
+}
+
+.bottom-nav ul {
+  display: inline-block;
+  padding: 3px;
 }
 
 .bottom-nav ul li {
-  display-style: inline-block
+  display: inline-block;
+}
+
+.bottom-nav ul li a {
+  color: #000000;
 }
