@@ -1,9 +1,10 @@
+.alphabetical-order,
 .lower-half ul,
 .lower-half li,
 .lower-half figure,
 .lower-half img,
 .lower-half a,
-.lower-half a:visited
+.lower-half a:visited,
 .footer ul,
 .footer li,
 .footer figure,
@@ -11,93 +12,38 @@
 .footer a,
 .footer a:visited {
   list-style-type: none;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
+  margin: 0;
   text-decoration: none;
 }
 
-.lower-half {
-  font-family: serif;
-  font-size: 1em;
+.bottom-nav {
+  display: block;
+  text-align: center;
+  width: 100%;
 }
 
-.lower-half h6 {
-  font-size: 1.6em;
-  font-weight: bold;
-  margin-block-start: 1.4em;
-  margin-block-end: 1.4em;
+.bottom-nav h6 {
+  display: inline-block;
 }
 
-.the-new-york-times-banner {
-    height: 36px;    
+.bottom-nav ul {
+  display: inline-block;
+  padding: 3px;
+}
+
+.bottom-nav ul li {
+  display: inline-block;
+}
+
+.bottom-nav ul li a {
+  color: #000;
 }
 
 .comments-section {
   display: block;
   text-align: center;
   width: 100%;
-}
-
-.related-articles-session {
-  display: block;
-}
-
-.related-articles-session * {
-  vertical-align: top;
-}
-
-.more-articles-section {
-  display: inline-block;
-  width: 70%;
-}
-
-.more-articles-section * {
-  display: block;
-}
-
-.more-articles-section ul li {
-  display: inline-block;
-  width: 32.5%;
-}
-
-.more-articles-section ul li * {
-  display: block;
-}
-
-.more-articles-section ul li figure img {
-  display: inline-block;
-  width: 100%;
-}
-
-.more-articles-section ul li figure figcaption {
-  display: none;
-}
-
-.more-articles-section ul li a {
-
-}
-
-.more-articles-section ul li * {
-  display: block;
-  margin: 3px;
-}
-
-.most-popular-articles {
-  display: inline-block;
-  width: 29%;
-}
-
-.most-popular-articles ul li {
-  border-top: 3px solid #ebebe0;
-  display: block;
-  font-size: 1.2em;
-  font-weight: bold;
-  margin: 3px;
-  padding: 3px;
-}
-
-.most-popular-articles ul li a {
-  color: #000000;
 }
 
 .footer-nav {
@@ -130,25 +76,75 @@
   color: #505050;
 }
 
-.bottom-nav {
+.lower-half {
+  font-family: serif;
+  font-size: 1em;
+}
+
+.lower-half h6 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-block-start: 1.4em;
+  margin-block-end: 1.4em;
+}
+
+.more-articles-section {
+  display: inline-block;
+  width: 70%;
+}
+
+.more-articles-section * {
   display: block;
-  text-align: center;
+}
+
+.more-articles-section ul li {
+  display: inline-block;
+  width: 32.5%;
+}
+
+.more-articles-section ul li * {
+  display: block;
+}
+
+.more-articles-section ul li figure img {
+  display: inline-block;
   width: 100%;
 }
 
-.bottom-nav h6 {
-  display: inline-block;
+.more-articles-section ul li figure figcaption {
+  display: none;
 }
 
-.bottom-nav ul {
+.more-articles-section ul li * {
+  display: block;
+  margin: 3px;
+}
+
+.most-popular-articles {
   display: inline-block;
+  width: 29%;
+}
+
+.most-popular-articles ul li {
+  border-top: 3px solid #ebebe0;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 3px;
   padding: 3px;
 }
 
-.bottom-nav ul li {
-  display: inline-block;
+.most-popular-articles ul li a {
+  color: #000;
+}
+.related-articles-session {
+  display: block;
 }
 
-.bottom-nav ul li a {
-  color: #000000;
+.related-articles-session * {
+  vertical-align: top;
+}
+
+.the-new-york-times-banner {
+  height: 36px;
 }
