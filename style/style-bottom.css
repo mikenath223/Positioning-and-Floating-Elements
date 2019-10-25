@@ -1,16 +1,4 @@
-.alphabetical-order,
-.lower-half ul,
-.lower-half li,
-.lower-half figure,
-.lower-half img,
-.lower-half a,
-.lower-half a:visited,
-.footer ul,
-.footer li,
-.footer figure,
-.footer img,
-.footer a,
-.footer a:visited {
+* {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -137,6 +125,7 @@
 .most-popular-articles ul li a {
   color: #000;
 }
+
 .related-articles-session {
   display: block;
 }
