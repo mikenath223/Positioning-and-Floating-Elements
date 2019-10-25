@@ -14,6 +14,11 @@
 
 .float-left {float: left;}
 
+.clear {
+  clear: both;
+  display: block;
+}
+
 .fixed-banner {
   position: fixed;
   background-color: #fff;
@@ -63,9 +68,14 @@ img[alt="share-icons"] {height: 60px}
   height: 20px;
 }
 
-.bold {font-weight: bold;}
+.bold {
+  padding-right: 5px;
+  font-weight: bold;}
 
-.column-inflation {
-  width: 410px}
+.column-inflation {width: 170px}
 
-  .column-inflation img {width: 50px; height: 50px}
+.column-inflation img {
+  display: block;
+  width: 170px; 
+  height: 130px;
+}
