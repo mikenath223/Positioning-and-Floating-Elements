@@ -11,6 +11,46 @@
   width: 100%;
 }
 
+.comments-section {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-nav {
+  display: block;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.footer-nav-column {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.lower-half {
+  font-family: serif;
+  font-size: 1em;
+}
+
+.more-articles-section {
+  display: inline-block;
+  width: 70%;
+}
+
+.most-popular-articles {
+  display: inline-block;
+  width: 29%;
+}
+
+.related-articles-session {
+  display: block;
+}
+
+.the-new-york-times-banner {
+  height: 36px;
+}
+
 .bottom-nav h6 {
   display: inline-block;
 }
@@ -20,30 +60,6 @@
   padding: 3px;
 }
 
-.bottom-nav ul li {
-  display: inline-block;
-}
-
-.bottom-nav ul li a {
-  color: #000;
-}
-
-.comments-section {
-  display: block;
-  text-align: center;
-  width: 100%;
-}
-
-.footer-nav {
-  font-family: sans-serif;
-}
-
-.footer-nav {
-  display: block;
-  font-family: sans-serif;
-  width: 100%;
-}
-
 .footer-nav h6 {
   font-size: 1.4em;
   font-weight: bold;
@@ -51,22 +67,8 @@
   margin-block-end: 0.67em;
 }
 
-.footer-nav-column {
-  display: inline-block;
-  vertical-align: top;
-}
-
 .footer-nav-column * {
   display: block;
-}
-
-.footer-nav-column ul li a {
-  color: #505050;
-}
-
-.lower-half {
-  font-family: serif;
-  font-size: 1em;
 }
 
 .lower-half h6 {
@@ -76,41 +78,21 @@
   margin-block-end: 1.4em;
 }
 
-.more-articles-section {
-  display: inline-block;
-  width: 70%;
-}
-
 .more-articles-section * {
   display: block;
+}
+
+.related-articles-session * {
+  vertical-align: top;
+}
+
+.bottom-nav ul li {
+  display: inline-block;
 }
 
 .more-articles-section ul li {
   display: inline-block;
   width: 32.5%;
-}
-
-.more-articles-section ul li * {
-  display: block;
-}
-
-.more-articles-section ul li figure img {
-  display: inline-block;
-  width: 100%;
-}
-
-.more-articles-section ul li figure figcaption {
-  display: none;
-}
-
-.more-articles-section ul li * {
-  display: block;
-  margin: 3px;
-}
-
-.most-popular-articles {
-  display: inline-block;
-  width: 29%;
 }
 
 .most-popular-articles ul li {
@@ -122,18 +104,32 @@
   padding: 3px;
 }
 
+.bottom-nav ul li a {
+  color: #000;
+}
+
+.footer-nav-column ul li a {
+  color: #505050;
+}
+
+.more-articles-section ul li * {
+  display: block;
+}
+
+.more-articles-section ul li * {
+  display: block;
+  margin: 3px;
+}
+
 .most-popular-articles ul li a {
   color: #000;
 }
 
-.related-articles-session {
-  display: block;
+.more-articles-section ul li figure figcaption {
+  display: none;
 }
 
-.related-articles-session * {
-  vertical-align: top;
-}
-
-.the-new-york-times-banner {
-  height: 36px;
+.more-articles-section ul li figure img {
+  display: inline-block;
+  width: 100%;
 }
