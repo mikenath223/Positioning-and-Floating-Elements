@@ -1,0 +1,138 @@
+.lower-half ul, .lower-half li, .lower-half figure, .lower-half img, .lower-half a, .lower-half a:visited {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+}
+
+.lower-half {
+  font-family: serif;
+  font-size: 1em;
+}
+
+.lower-half h6 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-block-start: 1.4em;
+  margin-block-end: 1.4em;
+}
+
+.the-new-york-times-banner {
+    height: 36px;    
+}
+
+.comments-section {
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.related-articles-session {
+  display: block;
+}
+
+.related-articles-session * {
+  vertical-align: top;
+}
+
+.more-articles-section {
+  display: inline-block;
+  width: 70%;
+}
+
+.more-articles-section * {
+  display: block;
+}
+
+.more-articles-section ul li {
+  display: inline-block;
+  width: 32.5%;
+}
+
+.more-articles-section ul li * {
+  display: block;
+}
+
+.more-articles-section ul li figure img {
+  display: inline-block;
+  width: 100%;
+}
+
+.more-articles-section ul li figure figcaption {
+  display: none;
+}
+
+.more-articles-section ul li a {
+
+}
+
+.more-articles-section ul li * {
+  display: block;
+  margin: 3px;
+}
+
+.most-popular-articles {
+  display: inline-block;
+  width: 29%;
+}
+
+.most-popular-articles ul li {
+  border-top: 3px solid #ebebe0;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 3px;
+  padding: 3px;
+}
+
+.most-popular-articles ul li a {
+  color: #000000;
+}
+
+.footer-nav {
+  font-family: sans-serif;
+}
+
+.footer-nav {
+  border: 1px solid black;
+  display: block;
+  font-family: sans-serif;
+  width: 100%;
+}
+
+.footer-nav h6 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+}
+
+.footer-nav-column {
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-nav-column * {
+  border: 1px solid black;
+  display: block;
+}
+
+.footer-nav-column ul li a {
+  color: #505050;
+}
+
+.bottom-nav {
+  border: 1px solid black;
+  display: block;
+  text-align: center;
+  width: 100%;
+}
+
+.bottom-nav * {
+  display-style: inline-block;
+}
+
+.bottom-nav ul li {
+  display-style: inline-block
+}
