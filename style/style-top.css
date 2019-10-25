@@ -72,10 +72,30 @@ img[alt="share-icons"] {height: 60px}
   padding-right: 5px;
   font-weight: bold;}
 
-.column-inflation {width: 170px}
+.column-inflation {
+  height: 300px;
+  width: 170px;
+  margin: 5px;
+}
 
 .column-inflation img {
-  display: block;
   width: 170px; 
   height: 130px;
 }
+
+.columnInflation_snippet {
+  width: 750px;
+  height: 620px;
+}
+
+.authors{
+  margin-left: 35px;
+}
+
+.divider {
+  display: block;
+  height: 90px;
+  width: 60px;
+  border-bottom: 3px solid #000;
+}
+
