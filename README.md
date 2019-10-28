@@ -2,6 +2,9 @@
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
+
+# View Demo
+ https://mikenath223.github.io/Positioning-and-Floating-Elements/
 <br />
 <p align="center">
  <h3 align="center">The Project was made by - Ukeje Michgolden & Frederico Miranda</h3>

@@ -103,6 +103,9 @@
 
 .bottom-nav {
   margin-top: 15px;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
 }
 
 .bottom-nav * {
