@@ -4,12 +4,6 @@ body {
   font-size: 21px;
 }
 
-*, *:before, *:after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .main-container {
   margin-top: 100px
 }
@@ -71,6 +65,9 @@ img[alt="head-icon"] {
 .article-main-headline {
   font-family: cursive, georgia, serif;
   font-style: italic;
+  font-size: 40px;
+  margin: 20px 0;
+  padding-right: 80px;
   text-align: center;
 }
 
@@ -95,7 +92,10 @@ img[alt="image-top"] {
 }
 
 small[class="mid-col"] {
-  display: block
+  display: block;
+  word-spacing: 3px;
+  font-size: 15px;
+  color: gray;
 }
 
 img[alt="share-icons"] {

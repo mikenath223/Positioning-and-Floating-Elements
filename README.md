@@ -17,7 +17,7 @@
 <h2 align="center">Tools and Technologies Used<h2>
  <ul>
   <li>HTML5 : for markup</li>
-  <li>CSSs :for styling</li>
+  <li>CSS3 :for styling</li>
   <li>Linter and Stickler :for validation</li>
  </ul>
 <!-- TABLE OF CONTENTS -->
@@ -26,7 +26,6 @@
 Ukeje Michgolden :man: - [Github profile](https://github.com/mikenath223)
 <br>
 Frederico Miranda Brandão Alves :man: - [Github profile](https://github.com/frederico-miranda)
-Project Link :envelope:: [Project repo](https://github.com/Tresor11/mint-signup/tree/features)
 <!-- ACKNOWLEDGEMENTS -->
 
 <!-- MARKDOWN LINKS & IMAGES -->
