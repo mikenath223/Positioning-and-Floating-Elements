@@ -10,6 +10,10 @@
   text-align: center;
   width: 100%;
   margin-top: 15px;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+
 }
 
 .comments-section {
@@ -101,13 +105,6 @@
 
 .related-articles-session * {
   vertical-align: top;
-}
-
-.bottom-nav {
-  margin-top: 15px;
-  position: fixed;
-  bottom: 0;
-  background-color: #fff;
 }
 
 .bottom-nav * {
