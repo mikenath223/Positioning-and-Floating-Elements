@@ -5,11 +5,11 @@ body {
 }
 
 .main-container {
-  margin-top: 100px
+  margin-top: 100px;
 }
 
 .main-container * {
-  overflow: hidden
+  overflow: hidden;
 }
 
 .float-right {
@@ -40,11 +40,11 @@ body {
 }
 
 .icon-space h3 {
-  padding-top: 15px
+  padding-top: 15px;
 }
 
 img[alt="head-icon"] {
-  padding-left: 10px
+  padding-left: 10px;
 }
 
 .subscribe {
@@ -81,7 +81,8 @@ img[alt="image-top"] {
   text-align: center;
 }
 
-.article-main-figure, .inflation {
+.article-main-figure,
+.inflation {
   width: 1000px;
   margin: 0 auto;
 }
@@ -99,7 +100,7 @@ small[class="mid-col"] {
 }
 
 img[alt="share-icons"] {
-  height: 60px
+  height: 60px;
 }
 
 .space {

@@ -9,6 +9,7 @@
   display: block;
   text-align: center;
   width: 100%;
+  margin-top: 15px;
 }
 
 .comments-section {
@@ -36,6 +37,7 @@
 .footer-nav-column {
   display: inline-block;
   vertical-align: top;
+  margin-right: 25px;
 }
 
 .lower-half {
@@ -134,16 +136,8 @@
   color: #000;
 }
 
-.footer-nav-column {
-  margin-right: 25px;
-}
-
 .footer-nav-column ul li a {
   color: #505050;
-}
-
-.more-articles-section ul li * {
-  display: block;
 }
 
 .more-articles-section ul li * {
